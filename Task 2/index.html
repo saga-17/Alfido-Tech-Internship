@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2 : Responsive Navigation Bar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Alfido Tech</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content">
+        <section id="home" class="section">
+            <div class="overlay"></div>
+            <div class="home-content">
+                <h1>Welcome to Alfido Tech</h1>
+                <p>Your trusted partner in technology solutions</p>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Us</h2>
+                <div class="about-content">
+                    <p>Alfido Tech is a privately held IT services and consulting company headquartered in Hyderabad, Telangana, India. Founded in 2023, the company has rapidly grown to a team of over 50 professionals, offering a diverse range of digital solutions including custom software development, web and mobile app design, SEO optimization, social media marketing, and Google Ads management.</p>
+                    
+                    <p>A notable aspect of Alfido Tech is its commitment to nurturing tech talent through its AICTE-approved remote internship programs. These programs provide hands-on experience in various domains such as frontend development, Python, Java, data science, UX/UI design, and Android development, catering to students and fresh graduates. The internships are structured to offer real-world projects, mentorship from industry experts, and professional certifications upon completion.</p>
+                    
+                    <p>Under the leadership of CEO and founder Bhanu Pratap Biswas, Alfido Tech has been recognized for its innovation and growth, earning a spot among HackerNoon's Top 10 Startups in Hyderabad for 2024. The company's dedication to empowering businesses and individuals through technology positions it as a dynamic player in the IT industry.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Web & Mobile Development</h3>
+                        <p>Custom web and mobile app development with responsive and user-friendly designs to enhance your online presence.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-search"></i>
+                        <h3>SEO Optimization</h3>
+                        <p>Specialized SEO services to improve search engine rankings and drive organic traffic to your website.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-hashtag"></i>
+                        <h3>Social Media Marketing</h3>
+                        <p>Tailored strategies across Facebook, Instagram, Twitter, and LinkedIn to maximize reach and engagement.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email Marketing</h3>
+                        <p>Targeted email campaigns designed to boost engagement and conversions through personalized messaging.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>Logo Design</h3>
+                        <p>Custom logo design services that emphasize originality and perfect brand alignment.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-ad"></i>
+                        <h3>PPC Advertising</h3>
+                        <p>Focused PPC campaigns to increase visibility and drive conversions, including our innovative Auto Google Ads Clicker Automation tool.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section">
+            <div class="container">
+                <h2>Our Portfolio</h2>
+                <p class="portfolio-intro">Showcasing our diverse range of projects across various domains</p>
+                
+                <div class="portfolio-categories">
+                    <div class="category">
+                        <h3><i class="fas fa-code"></i> Web & Application Development</h3>
+                        <div class="project-grid">
+                            <div class="project-card">
+                                <h4>School Management System</h4>
+                                <p>Comprehensive dashboard using Next.js and MySQL featuring:</p>
+                                <ul>
+                                    <li>Student, teacher, and parent management</li>
+                                    <li>Timetable generation</li>
+                                    <li>Fee collection system</li>
+                                    <li>Data visualization</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="project-card">
+                                <h4>Logistics & E-commerce Platforms</h4>
+                                <p>Built with React.js, Node.js, and MySQL:</p>
+                                <ul>
+                                    <li>Logistics management system</li>
+                                    <li>Shipment tracking</li>
+                                    <li>Administrative dashboards</li>
+                                    <li>E-commerce functionality</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="project-card">
+                                <h4>Betting & Real Estate PWAs</h4>
+                                <p>Progressive Web Applications featuring:</p>
+                                <ul>
+                                    <li>Responsive design</li>
+                                    <li>User-friendly interfaces</li>
+                                    <li>Real-time updates</li>
+                                    <li>Cross-platform compatibility</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="category">
+                        <h3><i class="fas fa-chart-line"></i> Data Analytics</h3>
+                        <div class="project-grid">
+                            <div class="project-card">
+                                <h4>Sales Performance Analysis</h4>
+                                <p>In-depth analysis using Python and Pandas:</p>
+                                <ul>
+                                    <li>Trend identification</li>
+                                    <li>Customer behavior analysis</li>
+                                    <li>Performance metrics</li>
+                                    <li>Machine learning integration</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="project-card">
+                                <h4>Uber & Weather Data Analysis</h4>
+                                <p>Data exploration and visualization:</p>
+                                <ul>
+                                    <li>Uber ride data analysis</li>
+                                    <li>Weather pattern identification</li>
+                                    <li>Pattern recognition</li>
+                                    <li>Insight extraction</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="category">
+                        <h3><i class="fas fa-graduation-cap"></i> Internship Projects</h3>
+                        <div class="project-grid">
+                            <div class="project-card">
+                                <h4>Python Applications</h4>
+                                <p>GUI development with Python and Tkinter:</p>
+                                <ul>
+                                    <li>Calculator application</li>
+                                    <li>To-do list manager</li>
+                                    <li>Password generator</li>
+                                    <li>User interface design</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="project-card">
+                                <h4>Web Development Tasks</h4>
+                                <p>Frontend development projects:</p>
+                                <ul>
+                                    <li>Landing pages</li>
+                                    <li>Personal portfolios</li>
+                                    <li>HTML/CSS implementation</li>
+                                    <li>JavaScript functionality</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Location</h3>
+                            <p>Hyderabad, Telangana</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p>alfidotech@gmail.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <h3>Phone</h3>
+                            <p>+91 9977465250</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html> 
